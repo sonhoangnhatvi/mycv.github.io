@@ -16,6 +16,7 @@ body {
 #banner {
     background-image: linear-gradient(rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 0.6)), url(/images/banner.jpg);
     background-size: cover;
+    background-position: center;
     color: #fff;
     position: relative;
     padding: 50px;
