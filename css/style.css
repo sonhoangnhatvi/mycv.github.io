@@ -9,16 +9,18 @@ body {
     font-family: "Inter", sans-serif;
     color: #343a40;
     line-height: 1.5;
+    width: 100%;
 }
 
 /* Region : banner */
 #banner {
-    background-image: linear-gradient(rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 0.6)), url("../images/banner.jpg");
+    background-image: linear-gradient(rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 0.6)), url(/images/banner.jpg);
     background-size: cover;
     color: #fff;
     position: relative;
     padding: 50px;
     height: 450px;
+    width: 100%;
 }
 
 .banner-content {
@@ -143,7 +145,7 @@ nav .nav-bar-content {
 #job-info .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 30px 200px;
+    padding: 30px 0;
     gap: 30px;
 }
 
@@ -266,7 +268,7 @@ nav .nav-bar-content {
 
 /* Region : certificate */
 #certificate .container {
-    padding: 30px 200px;
+    padding: 30px 0;
     background-color: #F7F7F7;
 }
 
@@ -292,7 +294,8 @@ nav .nav-bar-content {
 }
 
 #certificate .section-content .item img {
-    height: 90px;
+    height: 80%;
+    width: 70%;
 }
 
 #certificate .section-content .border-left img {
@@ -300,7 +303,8 @@ nav .nav-bar-content {
 }
 
 #certificate .section-content .item-content {
-    margin-left: 30px;
+    padding: 10px 10px;
+    padding-left: 30px;
 }
 
 #certificate .section-content .item-content h4 {
@@ -319,7 +323,7 @@ nav .nav-bar-content {
 
 /* Region : project*/
 #project {
-    padding: 30px 200px;
+    padding: 30px 0;
 }
 
 #project .section-title {
@@ -382,31 +386,14 @@ nav .nav-bar-content {
 }
 
 /* Region : footer */
-#footer .container {
-    display: flex;
-    justify-content: center;
-    padding: 50px;
-    gap: 50px;
-    background-color: #F7F7F7;
-}
-
-#footer .container .item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    cursor: pointer;
-}
-
 #footer .container .item i {
     color: #199CDB;
     font-size: 30px;
 }
 
 #footer .container .item p {
-    margin-left: 8px;
     color: #868e96;
+    margin-left: 10px;
 }
-
 
 /* End region */
